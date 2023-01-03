@@ -1,4 +1,4 @@
-//Solved on Leetcode :[click here](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)
+//Solved on Leetcode : https://leetcode.com/problems/evaluate-reverse-polish-notation/description/
 
 class Solution {
     public int evalRPN(String[] tokens) {
