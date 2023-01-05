@@ -3,7 +3,7 @@
 class Solution {
     public int maxRotateFunction(int[] nums) {
         //refer copy for the explanation
-        //basically its a formula that i created
+        //basically its a formula
 
         int sum = 0;
         int f = 0;
@@ -18,6 +18,7 @@ class Solution {
         //traverse backwards
         for(int i=n-1; i>0; i--){
             max = Math.max(max, f + sum - (n*nums[i]));
+            //the formula -->
             f = f + sum - (n*nums[i]);
         }
 
